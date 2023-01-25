@@ -1,0 +1,31 @@
+JAVASCRIPT
+con var name podemos haber creado una variable y luego podemos renombrarla o cambiarle datos en cambio let no me permite cambiar valor jay que crear variable nueva o solamente colocando el nombre
+de la variable y agregar el nuevo valor que se le asignara pero solamente con el nombre de la variable sim agregar el let
+
+FOR (var i=0; i<5; i++){   console.log(i)}
+
+var a=5
+undefined
+typeof(a)
+'number'
+
+FUNCION DECLARATIVA:
+
+var colors = ['rojo','amarillo','verde']
+undefined
+function.getcolorsD(valor){ console.log(`Elcolor es ${valor}`)
+
+FUNCION DE EXCLAMACIO:
+ CONST getcolorE = function (valor) { console.log (valor)}
+for(var color of colors){getcolorsE(color)}
+for (var c of colors){getcolorsE(c)}
+
+FUNCION DE FLECHA
+
+const getcoloA = colorA => {console.log(colorA)}
+undefined
+for (var element of colors){getcoloA(element)}
+VM2885:1 rojo
+VM2885:1 amarillo
+VM2885:1 verde
+undefined
